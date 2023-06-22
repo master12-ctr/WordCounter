@@ -1,4 +1,3 @@
-import Head from "next/head";
 import WordCountBeginner from "./Beginner project/WordCount/wordcount";
 export default function   Word() {
   return (

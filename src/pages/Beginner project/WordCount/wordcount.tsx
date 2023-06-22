@@ -4,7 +4,7 @@ export default function   WordCountBeginner() {
   const[text,setText]=useState('');
   const[word,setWords]=useState(0);
   const[chars,setChars]=useState(0);
- const handeChange=(event)=>{
+ const handeChange=(event:any)=>{
   setText(event.target.value);
  }
 useEffect(()=>{
